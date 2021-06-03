@@ -1,13 +1,16 @@
 {
     "name": "@thingsthat/thingsthat-eslint-config",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "author": {
         "email": "hello@thingsthat.com",
         "name": "Jack Prosser",
         "url": "https://www.thingsthat.com"
     },
-    "devDependencies": {
+    "peerDependencies": {
+        "eslint": "^7.24.0"
+    },
+    "dependencies": {
         "eslint": "^7.24.0",
         "eslint-plugin-html": "^6.1.2",
         "eslint-plugin-i18next": "^5.1.1",
